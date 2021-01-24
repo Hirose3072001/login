@@ -28,7 +28,7 @@ function validateForm()
     else{
         if(username=="kitweb2001@gmail.com"&&password=="kitwebkma2001")
         {
-            window.location.href = "index.html";
+            window.location.href = "index.php";
         }
         else{
             alert('Tài khoản hoặc mật khẩu chưa đúng. Xin thử lại !');
