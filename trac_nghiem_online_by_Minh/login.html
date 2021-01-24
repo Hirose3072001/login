@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Đăng nhập</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
+    <link href="static/plugin/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="static/css/login.css" rel="stylesheet">
+    <link rel="icon" href="image/logo.jpg">
+</head>
+<body>
+   
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-sm-12 col-md-8 offset-md-2 col-lg-6 offset-lg-3 col-xl-6 offset-xl-3">
+                <div class="text-center m-3">
+                    <div class="login">
+                          <div class="space_logo">
+                            <img src="image/BLUE.png" class="login-logo">
+                            <p class="login-logo-text">KIT-TEST</p>
+                          </div>
+                        <div class="text-center mt-5">
+                            <form method="post" action="" onsubmit="return validateForm()">
+                                <input type="text" class="form-control form-input" placeholder="Tài khoản" name="username"id="username" value=""/>
+                            <div class="login-password">
+                                <input type="password" class="form-control form-input" placeholder="Mật khẩu" name="password"id='password' value=""/>
+                                <span class="fa fa-eye login-eye toggle-password" id="togglePassword"></span>
+                            </div>
+                            <label class="container text-left ml-5 mt-2 login-checkbox">
+                                <input type="checkbox">
+                                <p class="login-remember">Lưu tài khoản,mật khẩu</p>
+                              </label>
+                        </div>
+                        <div class="text-center">
+                            <button class="btn btn-login btn-primary" type="submit">Đăng nhập</button>
+                        </div>
+                            </form>
+                            
+                            
+                        <div class="mt-3">
+                            <a href="#"><p class="login-forget">Quên mật khẩu</p></a>
+                        </div>
+                        <div class="">
+                            <p class="login-signUp">Bạn chưa có tài khoản <a href="#">Đăng ký</a> ngay </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+           
+<!-- jQuery -->
+<script src="static/plugin/jquery/jquery-3.2.1.min.js"></script>
+<!-- Plugins -->
+<script src="static/plugin/bootstrap/js/popper.min.js"></script>
+<script src="static/plugin/bootstrap/js/bootstrap.min.js"></script>
+<!-- custom -->
+<script src="static/js/login.js"></script>
+</body>
+</html>
